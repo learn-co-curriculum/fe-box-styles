@@ -1,9 +1,4 @@
----
-language: css
-tags: css, box style, background
-type: lecture
-resources: 0
----
+
 
 ## Box Styles ~ 20min
 
