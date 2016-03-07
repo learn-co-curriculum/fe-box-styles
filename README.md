@@ -51,7 +51,7 @@ div {
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
-``
+```
 
 ### Box Shadow
 
@@ -61,7 +61,7 @@ div {
   -moz-box-shadow: 5px 5px 10px #888;
   box-shadow: 5px 5px 10px #888;
 }
-``
+```
 
 ### Opacity
 
@@ -72,7 +72,7 @@ div {
   -khtml-opacity: 0.5; /*Safari 1.x*/
   opacity: 0.5;
 }
-``
+```
 
 ### Gradient
 
