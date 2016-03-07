@@ -19,19 +19,35 @@ In this lesson we will look at css properties for styling our boxes. We will cov
 
 ### Background
 
+A quick way to breathe life into our layouts is to apply some colors, textures, and images into our backgrounds. Below are some commonly used background properties that will help our elements look great! When adding a background image, we can still easily place text and media content on top of it.
+
 `background-color: black | #000 | rgba(0,0,01)`
+
+Background color will fill the element a solid color, and accepts color name, hexidecimal, or rgb values. This color will fill edge to edge up until the border area.
 
 `background-image: url(myimage.jpg)`
 
-`background-position: top left | top center | top right `
+Background images allow us to fill our elements with photos, tectures, patterns, just about any visual you come across. we use the `url()` to point to our image file. Accepted formats include: jpg, gif, and png.
+
+`background-position: top left | 50% 50% | 100px -30px`
+
+Background position allows us to reposition our images inside of our element. We can supply directions such as top left, top right, top center, center, bottom left, bottom center, and bottom right. We can also provide (%) percents or (px) pixels measurements where the first value is the horizontal positioning and the second is vertical positioning. 
 
 `background-repeat: repeat | repeat-x | repeat-y | no-repeat`
 
+We can control whether or not our background image appears once or repeats. Repeating can be useful to tile patterns or textures.
+
 `background-scroll: fixed | scroll`
+
+Background scroll defines if the image should stay `fixed` in place while scrolling or if it should `scroll` with the content.
 
 `background-size: 100% | 1px | 1em | contain | cover`
 
+Background size allows us to set the size of the image in (%) percents of its element container, (px) exact pixels, or whether to `contain` itself within the dimesions of the element, or `cover` which causes it to cover the element edge to edge by cropping the image if neccesary.
+
 `background: white url(myimage.jpg) no-repeat`
+
+The shorthand property `background` 
 
 ### Border
 
