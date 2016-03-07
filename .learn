@@ -1,9 +1,13 @@
 languages:
   - css
 tags:
-  - css
-  - box style
+  - box 
+  - style
   - background
+  - gradient
+  - shadow
+  - position
+  - size
 type:
   - lecture
-resources: 0
+resources: 3
