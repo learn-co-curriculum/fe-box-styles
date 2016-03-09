@@ -142,7 +142,7 @@ div {
 }
 ```
 <div style="width:50px;height:50px;background:lime;"></div>
-<div style="width:50px;height:50px;background:#ccc;filter: alpha(opacity=50);-moz-opacity: 0.4;-khtml-opacity: 0.5;opacity: 0.5;position:relative;z-index:1;top: -35px; left: 0;"></div>
+<div style="width:50px;height:50px;background:#ccc;filter: alpha(opacity=50);-moz-opacity: 0.4;-khtml-opacity: 0.5;opacity: 0.5;position:relative;z-index:1;top: -25px; left: 25px;"></div>
 
 ### Gradient
 
