@@ -113,6 +113,8 @@ The shorthand property `border` allows us to set all of the properties in a sing
 
 ### Border Radius
 
+Border radius allows us to round the corners of elements. you can give it one value to uniformly round the edges on all sides or a second value following a `/` forward slash to adjust the radii to make squished curves, or give it up to four values to indicate different measurements for each of the four corners of the element in order top-left, top-right, bottom-right, bottom-left.
+
 ```css
 div {
   -webkit-border-radius: 20px;
@@ -123,7 +125,11 @@ div {
 
 <div style="width:50px;height:50px;background:#ccc;border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px;"></div>
 
+Where as `border-radius` is a shorthand property we can also call out each corner using individual properties such as: `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius`, `border-bottom-left-radius`.
+
 ### Box Shadow
+
+Bow shadow adds a nice drop shadow aurrounding the element. It is cast outside the border into the margin area of the element. It is defined using three values: the first being horizontal offset, followed by vertical offset, feather, and color. The offsets  push the sadoes out and away from the element. The feather softens the shadow, and the color sets the hue.
 
 ```css
 div {
@@ -136,6 +142,8 @@ div {
 <div style="width:50px;height:50px;background:#ccc;box-shadow: 5px 5px 10px #888;-moz-box-shadow: 5px 5px 10px #888;-webkit-box-shadow: 5px 5px 10px #888;"></div>
 
 ### Opacity
+
+Opacity allows us to add transparency to our elements. The standard `opacity` property uses vlaues 0 to 1, with 0 being completely transparent and 1 being completely opaque. 0.5 for example, is the equivalent of 50% opacity.
 
 ```css
 div {
@@ -151,6 +159,20 @@ div {
 ### Gradient
 
 ...
+
+```css
+div {
+  background: -moz-linear-gradient(left, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(94,250,255,1)), color-stop(100%, rgba(3,22,237,1)));
+  background: -webkit-linear-gradient(left, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);
+  background: -o-linear-gradient(left, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);
+  background: -ms-linear-gradient(left, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);
+  background: linear-gradient(to right, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5efaff', endColorstr='#0316ed', GradientType=1 );
+}
+```
+
+<div style="width:50px;height:50px;background: -moz-linear-gradient(left, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);background: -webkit-gradient(left top, right top, color-stop(0%, rgba(94,250,255,1)), color-stop(100%, rgba(3,22,237,1)));background: -webkit-linear-gradient(left, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);background: -o-linear-gradient(left, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);background: -ms-linear-gradient(left, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);background: linear-gradient(to right, rgba(94,250,255,1) 0%, rgba(3,22,237,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5efaff', endColorstr='#0316ed', GradientType=1 );"></div>
 
 ## Summary
 
