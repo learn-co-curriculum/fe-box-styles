@@ -63,7 +63,7 @@ Border color allows us to set the color of our border using color names, hexidec
 
 `border-style: solid | dashed | dotted | double | groove | ridge | inset | outset`
 
-Border style allows us to alter the apperance of the border. Here we can see the different styles available:
+Border style allows us to alter the apperance of the border. Here we can see the different styles below in stunning blue,
 
 <table>
   <tr>
@@ -71,7 +71,7 @@ Border style allows us to alter the apperance of the border. Here we can see the
   </tr>
   <tr>
     <td>solid</td>
-    <td><div style="width:50px;height:50px;background:aqua;border:4px solid black;"></div></td>
+    <td><div style="width:50px;height:50pxborder:4px solid blue;"></div></td>
   </tr>
   <tr>
     <td>dashed</td>
