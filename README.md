@@ -23,6 +23,7 @@ A quick way to breathe life into our layouts is to apply some colors, textures, 
 
 <div style="color:white;width:50px;height:50px;background:url(http://placeimg.com/50/50/nature)">Some text...</div>
 
+
 `background-color: black | #000 | rgba(0,0,01)`
 
 Background color will fill the element a solid color, and accepts color name, hexidecimal, or rgb values. This color will fill edge to edge up until the border area.
