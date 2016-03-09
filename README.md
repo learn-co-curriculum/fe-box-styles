@@ -70,13 +70,20 @@ Border style allows us to alter the apperance of the border. Here we can see the
     <th>Value</th><th>Example</th>
   </tr>
   <tr>
-    <td>solid</td><td><div style="width:50px;height:50px;background:aqua;border:4px solid black;">...</div></td>
+    <td>solid</td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px solid black;"></div></td>
   </tr>
   <tr>
-    <td>dashed</td><td><div style="width:50px;height:50px;background:aqua;border:4px dashed black;">...</div></td>
+    <td>dashed</td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px dashed black;"></div></td>
   </tr>
   <tr>
-    <td>dotted</td><td><div style="width:50px;height:50px;background:aqua;border:4px dotted black;">...</div></td>
+    <td>dotted</td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px dotted black;"></div></td>
+  </tr>
+   <tr>
+    <td>double</td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px double black;"></div></td>
   </tr>
 </table>
 
