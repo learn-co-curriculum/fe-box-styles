@@ -117,7 +117,7 @@ A quick note, many of the following examples below specify the same property thr
 
 ### Border Radius
 
-Border radius allows us to round the corners of elements. you can give it one value to uniformly round the edges on all sides or a second value following a `/` forward slash to adjust the radii to make squished curves, or give it up to four values to indicate different measurements for each of the four corners of the element in order top-left, top-right, bottom-right, bottom-left.
+Border radius allows us to round the corners of elements. you can give it one value to uniformly round the edges on all sides or a second value following a `/` forward slash to adjust the radii to make squished curves, or give it up to four values to indicate different measurements for each of the four corners of the element in order top-left, top-right, bottom-right, bottom-left. Where as `border-radius` is a shorthand property we can also call out each corner using individual properties such as: `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius`, `border-bottom-left-radius`.
 
 ```css
 div {
@@ -128,8 +128,6 @@ div {
 ```
 
 <div style="width:50px;height:50px;background:#ccc;border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px;"></div>
-
-Where as `border-radius` is a shorthand property we can also call out each corner using individual properties such as: `border-top-left-radius`, `border-top-right-radius`, `border-bottom-right-radius`, `border-bottom-left-radius`.
 
 ### Box Shadow
 
