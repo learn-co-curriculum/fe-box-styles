@@ -141,7 +141,7 @@ div {
   opacity: 0.5;
 }
 ```
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sapiente temporibus eaque, iure repellendus, quam hic obcaecati consequatur placeat eos sed, tempora iusto quas sint ducimus? Eligendi quos, officiis molestias.</p>
+<p>Lorem ipsum dolor sit</p>
 <div style="width:50px;height:50px;background:#ccc;filter: alpha(opacity=50);-moz-opacity: 0.5;-khtml-opacity: 0.5;opacity: 0.5;position:relative;z-index:1;top: -25px; left: -25px;"></div>
 
 ### Gradient
