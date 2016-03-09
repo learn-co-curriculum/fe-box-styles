@@ -91,15 +91,15 @@ Border style allows us to alter the apperance of the border. Here we can see the
   </tr>
   <tr>
     <td>ridge</td>
-    <td><div style="width:50px;height:50px;background:aqua;border:4px ridge black;"></div></td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px ridge blue;"></div></td>
   </tr>
   <tr>
     <td>inset</td>
-    <td><div style="width:50px;height:50px;background:aqua;border:4px inset black;"></div></td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px inset blue;"></div></td>
   </tr>
   <tr>
     <td>outset</td>
-    <td><div style="width:50px;height:50px;background:aqua;border:4px outset black;"></div></td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px outset blue;"></div></td>
   </tr>
 </table>
 
