@@ -65,7 +65,7 @@ Border color allows us to set the color of our border using color names, hexidec
 
 Border style allows us to alter the apperance of the border. Here we can see the different styles available:
 
-<table>
+<table style="border-collapse:collapse;">
   <tr>
     <th>Value</th><th>Example</th>
   </tr>
