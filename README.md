@@ -158,7 +158,7 @@ div {
 
 ### Gradient
 
-...
+Using the background property we can also supply gradient tones. This is done by providing position or angle information for where the first color starts, followed by the color stop value, then optionally followed by a percent of space within the element that color stop should take up. There are three types of color gradients `linear-gradient`, `radial-gradient`, and repeating: `repeating-linear-gradient` and `repeating-radial-gradient`. below is an example of a linear gradient.
 
 ```css
 div {
