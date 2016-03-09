@@ -117,7 +117,7 @@ div {
 }
 ```
 
-<div style="width:50px;height:50px; border-radius: 20px;"></div>
+<div style="width:50px;height:50px;background:#ccc;border-radius:20px;-webkit-border-radius:20px;-moz-border-radius:20px;"></div>
 
 ### Box Shadow
 
