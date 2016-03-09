@@ -70,7 +70,7 @@ Border style allows us to alter the apperance of the border. Here we can see the
     <th>Value</th><th>Example</th>
   </tr>
   <tr>
-    <td></td>Solid<td><div style="width:50px;height:50px;background:aqua;border:4px solid black;"></div></td>
+    <td>Solid</td><td><div style="width:50px;height:50px;background:aqua;border:4px solid black;"></div></td>
   </tr>
 </table>
 
