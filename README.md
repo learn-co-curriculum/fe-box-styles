@@ -135,14 +135,14 @@ div {
 
 ```css
 div {
-  filter: alpha(opacoty=50); /*IE*/
+  filter: alpha(opacity=50); /*IE*/
   -moz-opacity: 0.5; /*FF 0.9*/
   -khtml-opacity: 0.5; /*Safari 1.x*/
   opacity: 0.5;
 }
 ```
 
-<div style="width:50px;height:50px;background:#ccc;filter: alpha(opacoty=50);-moz-opacity: 0.5;-khtml-opacity: 0.5;opacity: 0.5;"></div>
+<div style="width:50px;height:50px;background:#ccc;filter: alpha(opacity=50);-moz-opacity: 0.5;-khtml-opacity: 0.5;opacity: 0.5;"></div>
 
 ### Gradient
 
