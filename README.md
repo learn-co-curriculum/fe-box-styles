@@ -75,6 +75,9 @@ Border style allows us to alter the apperance of the border. Here we can see the
   <tr>
     <td>dashed</td><td><div style="width:50px;height:50px;background:aqua;border:4px dashed black;"></div></td>
   </tr>
+  <tr>
+    <td>dotted</td><td><div style="width:50px;height:50px;background:aqua;border:4px dotted black;"></div></td>
+  </tr>
 </table>
 
 `border: 1px solid #000`
