@@ -111,6 +111,10 @@ Border style allows us to alter the apperance of the border. Here we can see the
 
 The shorthand property `border` allows us to set all of the properties in a single place.
 
+### Vendor Prefixes
+
+A quick note, many of the following examples below specify the same property three or more times using prefixes such as `-webkit-` or `-moz-`. These are browser vendor prefixes. When a new CSS feature comes into existence it takes time for all the different browsers to include support for the property. During this time while the vendor is adjusting support they will tag a prefix onto the beginning of the property so that it will only effect their specific browser. Eventually when all vendors provide universal support for a new property the prefixes are no longer needed. So when we see these prefixes it is only for supporting new features on older browser versions. As time goes on these vendor prefixes become less neccessary, however we have included them below for now, as at the time of writing this these were neccesary for these new properties to display the same across all browsers old and new.
+
 ### Border Radius
 
 Border radius allows us to round the corners of elements. you can give it one value to uniformly round the edges on all sides or a second value following a `/` forward slash to adjust the radii to make squished curves, or give it up to four values to indicate different measurements for each of the four corners of the element in order top-left, top-right, bottom-right, bottom-left.
