@@ -142,6 +142,8 @@ div {
 }
 ```
 
+<div style="width:50px;height:50px;background:#ccc;filter: alpha(opacoty=50);-moz-opacity: 0.5;-khtml-opacity: 0.5;opacity: 0.5;"></div>
+
 ### Gradient
 
 ...
