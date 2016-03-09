@@ -190,7 +190,11 @@ div {
 
 - [Presentation Slides](https://docs.google.com/presentation/d/1NIXi8WE9PfQtYgAnFhCRQ64RK_cw2hDT2sUeG4puLuo/edit?usp=sharing)
 - [Box Style - Code Example](http://jsfiddle.net/flatiron_school/wsNXW/1/)
-- [Online Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 - [MDN - CSS - Background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+- [MDN - CSS - Border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+- [MDN - CSS Box Shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- [MDN - CSS - Border-Radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
+- [MDN - CSS - Opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+- [Online Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-box-styles' title='CSS Box Styles ~ 20min'>CSS Box Styles</a> on Learn.co and start learning to code for free.</p>
