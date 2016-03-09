@@ -21,6 +21,8 @@ In this lesson we will look at css properties for styling our boxes. We will cov
 
 A quick way to breathe life into our layouts is to apply some colors, textures, and images into our backgrounds. Below are some commonly used background properties that will help our elements look great! When adding a background image, we can still easily place text and media content on top of it.
 
+<div style="width:50px;height:50px;background:url(http://placeimg.com/50/50/animals)">Some text on top of our image!</div>
+
 `background-color: black | #000 | rgba(0,0,01)`
 
 Background color will fill the element a solid color, and accepts color name, hexidecimal, or rgb values. This color will fill edge to edge up until the border area.
