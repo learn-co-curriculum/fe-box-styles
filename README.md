@@ -23,6 +23,7 @@ A quick way to breathe life into our layouts is to apply some colors, textures, 
 
 <div style="color:white;width:50px;height:50px;background:url(http://placeimg.com/50/50/nature)">Some text...</div>
 
+Here are some common background properties and their accepted values seperated by `|` pipes.
 
 `background-color: black | #000 | rgba(0,0,01)`
 
