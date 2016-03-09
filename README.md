@@ -147,7 +147,9 @@ div {
 
 ### Opacity
 
-Opacity allows us to add transparency to our elements. The standard `opacity` property uses vlaues 0 to 1, with 0 being completely transparent and 1 being completely opaque. 0.5 for example, is the equivalent of 50% opacity.
+Opacity allows us to add transparency to our elements. The standard `opacity` property uses vlaues 0 to 1, with 0 being completely transparent and 1 being completely opaque. 0.5 for example, is the equivalent of 50% opacity. 
+
+*Note: it is important to understand that opacity not only adjusts the background but also any content or child elements within the selected element. So text inside an element would also have opacity effecting it. If you were just trying to make the background color transparent, but not the text then it would be more ideal then to use rgba value such as `background: rgba(255,0,0,0.5)` This for example would create a 50% transparent red background leaving the content and child elements within it uneffected.*
 
 ```css
 div {
@@ -180,7 +182,11 @@ div {
 
 ## Summary
 
-- ...
+- We can specify a background image, color, or gradient on elements using the `background` property.
+- We can specify many different border styles, colors, and thickness, using the `border` property.
+- We can round corners using the `border-radius` property.
+- We can add drop shadows to elemts using the `box-shadow` property.
+- We can adjust opacity on an element using the `opacity` property.
 
 ## Resources
 
