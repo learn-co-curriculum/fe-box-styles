@@ -81,9 +81,25 @@ Border style allows us to alter the apperance of the border. Here we can see the
     <td>dotted</td>
     <td><div style="width:50px;height:50px;background:aqua;border:4px dotted black;"></div></td>
   </tr>
-   <tr>
+  <tr>
     <td>double</td>
     <td><div style="width:50px;height:50px;background:aqua;border:4px double black;"></div></td>
+  </tr>
+  <tr>
+    <td>groove</td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px groove black;"></div></td>
+  </tr>
+  <tr>
+    <td>ridge</td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px ridge black;"></div></td>
+  </tr>
+  <tr>
+    <td>inset</td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px inset black;"></div></td>
+  </tr>
+  <tr>
+    <td>outset</td>
+    <td><div style="width:50px;height:50px;background:aqua;border:4px outset black;"></div></td>
   </tr>
 </table>
 
