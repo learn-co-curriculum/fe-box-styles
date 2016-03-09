@@ -105,6 +105,8 @@ Border style allows us to alter the apperance of the border. Here we can see the
 
 `border: 1px solid #000`
 
+The shorthand property `border` allows us to set all of the properties in a single place.
+
 ### Border Radius
 
 ```css
@@ -114,6 +116,8 @@ div {
   border-radius: 20px;
 }
 ```
+
+<div style="width:50px;height:50px; border-radius: 20px;"></div>
 
 ### Box Shadow
 
