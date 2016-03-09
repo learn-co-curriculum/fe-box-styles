@@ -129,6 +129,8 @@ div {
 }
 ```
 
+<div style="width:50px;height:50px;background:#ccc;box-shadow: 5px 5px 10px #888;-moz-box-shadow: 5px 5px 10px #888;-webkit-box-shadow: 5px 5px 10px #888;"></div>
+
 ### Opacity
 
 ```css
