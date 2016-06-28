@@ -41,9 +41,9 @@ Background position allows us to reposition our images inside of our element. We
 
 We can control whether or not our background image appears once or repeats. Repeating can be useful to tile patterns or textures.
 
-`background-scroll: fixed | scroll`
+`background-attachment: fixed | scroll`
 
-Background scroll defines if the image should stay `fixed` in place while scrolling or if it should `scroll` with the content.
+Background attachment defines if the image should stay `fixed` in place while scrolling or if it should `scroll` with the content.
 
 `background-size: 100% | 1px | 1em | contain | cover`
 
@@ -198,3 +198,5 @@ div {
 - [Online Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-box-styles' title='CSS Box Styles ~ 20min'>CSS Box Styles</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/fe-box-styles'>Box Styles Lecture</a> on Learn.co and start learning to code for free.</p>
