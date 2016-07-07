@@ -27,11 +27,11 @@ Here are some common background properties and their accepted values seperated b
 
 `background-color: black | #000 | rgba(0,0,01)`
 
-Background color will fill the element a solid color, and accepts color name, hexidecimal, or rgb values. This color will fill edge to edge up until the border area.
+Background color will fill the element a solid color, and accepts color name, hexadecimal, or rgb values. This color will fill edge to edge up to the border area.
 
 `background-image: url(myimage.jpg)`
 
-Background images allow us to fill our elements with photos, tectures, patterns, just about any visual you come across. we use the `url()` to point to our image file. Accepted formats include: jpg, gif, and png.
+Background images allow us to fill our elements with photos, textures, patterns, just about any visual you come across. We use the `url()` to point to our image file. Accepted formats include: jpg, gif, and png.
 
 `background-position: top left | 50% 50% | 100px -30px`
 
@@ -55,7 +55,7 @@ The shorthand property `background` allows us to give values for color, image, p
 
 ### Border
 
-Border properties allow us to create a line at te edge of our element, below are a few key porperties and their accepted values separated by `|` pipes.
+Border properties allow us to create a line at the edge of our element, below are a few key porperties and their accepted values separated by `|` pipes.
 
 `border-size: 1% | 1px | 1em`
 
@@ -147,7 +147,7 @@ div {
 
 Opacity allows us to add transparency to our elements. The standard `opacity` property uses vlaues 0 to 1, with 0 being completely transparent and 1 being completely opaque. 0.5 for example, is the equivalent of 50% opacity. 
 
-*Note: it is important to understand that opacity not only adjusts the background but also any content or child elements within the selected element. So text inside an element would also have opacity effecting it. If you were just trying to make the background color transparent, but not the text then it would be more ideal then to use rgba value such as `background: rgba(255,0,0,0.5)` This for example would create a 50% transparent red background leaving the content and child elements within it uneffected.*
+*Note: it is important to understand that opacity not only adjusts the background but also any content or child elements within the selected element. So text inside an element would also have opacity effecting it. If you were just trying to make the background color transparent, but not the text then it would be more ideal then to use rgba value such as `background: rgba(255,0,0,0.5)` This for example would create a 50% transparent red background leaving the content and child elements within it unaffected.*
 
 ```css
 div {
@@ -162,7 +162,7 @@ div {
 
 ### Gradient
 
-Using the background property we can also supply gradient tones. This is done by providing position or angle information for where the first color starts, followed by the color stop value, then optionally followed by a percent of space within the element that color stop should take up. There are three types of color gradients `linear-gradient`, `radial-gradient`, and repeating: `repeating-linear-gradient` and `repeating-radial-gradient`. below is an example of a linear gradient.
+Using the background property we can also supply gradient tones. This is done by providing position or angle information for where the first color starts, followed by the color stop value, then optionally followed by a percent of space within the element that color stop should take up. There are three types of color gradients `linear-gradient`, `radial-gradient`, and repeating: `repeating-linear-gradient` and `repeating-radial-gradient`. Below is an example of a linear gradient.
 
 ```css
 div {
@@ -200,3 +200,5 @@ div {
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-box-styles' title='CSS Box Styles ~ 20min'>CSS Box Styles</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/fe-box-styles'>Box Styles Lecture</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/fe-box-styles'>Box Styles</a> on Learn.co and start learning to code for free.</p>
